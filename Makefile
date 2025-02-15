@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -O3 -g
 
-SRC = main.c cache_funcs.c simulation.c
+SRC = code/main.c code/cache_funcs.c code/simulation.c
 OBJ = $(SRC:.c=.o)
-DEPS = cache_funcs.h cache_struct.h simulation.h
+DEPS = headers/cache_funcs.h headers/cache_struct.h headers/simulation.h
 EXECUTABLE = cache
 
 all: $(EXECUTABLE)

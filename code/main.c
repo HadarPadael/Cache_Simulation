@@ -1,4 +1,4 @@
-#include "simulation.h"
+#include "../headers/simulation.h"
 
 int main() {
    run();

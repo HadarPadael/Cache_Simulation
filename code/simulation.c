@@ -1,4 +1,4 @@
-#include "simulation.h"
+#include "../headers/simulation.h"
 
 // this method will run the simulation that the user will see and interact with.
 void run() {

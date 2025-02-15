@@ -1,5 +1,5 @@
-#include "cache_funcs.h"
-#include "cache_struct.h"
+#include "../headers/cache_funcs.h"
+#include "../headers/cache_struct.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
